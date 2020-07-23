@@ -1,0 +1,138 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("bilder/mat3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: center center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    
+    width: 1050px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}   
+header {
+    width: 100%;
+    background: rgba(252, 252, 252, 0);
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    font-size: 65px;
+}
+.fix {
+    clear: both;
+}
+main {
+ 
+    width: 800px;
+    min-height: 500px;
+    
+    float: left;
+    margin: auto;
+    padding: auto;
+   
+    
+}
+h3 {
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+
+}
+p {
+    padding: 5px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+aside {
+   
+    width: 250px;
+
+    height:555px ;
+    float: right;
+}
+.fix {
+    clear: both;
+}
+footer {
+    background: rgb(148, 49, 49);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+ 
+}
+
+
+
+form {
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+}
+.lista1 ul {
+    text-decoration: none;
+    margin: 0;
+    
+    padding: 0;
+    list-style-type: none;
+   
+   
+    
+
+}
+li a {
+    font-family:  'Lobster', cursive;
+    color: black;
+    font-size: 20px;
+    padding: auto;
+    margin: auto;
+   
+    
+    
+}
+a:hover {
+    color: aliceblue;
+}
+
+
+.lista1 li a {
+    display: block; 
+    color:rgb(177, 86, 34);
+    text-align: center;
+    padding:  8px, 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Lobster', cursive; 
+}
+.lista1 a.active {
+  background-color: #4CAF50;
+  color:white;
+  list-style-type: none;
+}
+.lista1 a:hover:not(.active){
+    color:rgb(250, 149, 91);
+    color:white;
+    list-style-type: none;
+}
+
+i {
+    float: left;;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+

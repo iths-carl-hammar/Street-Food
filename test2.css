@@ -1,0 +1,150 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: darkgrey;
+    margin: 0;
+    background-image: url("bilder/eld.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: center center;
+    background-attachment: fixed;
+   
+}
+.box {
+    background: white;
+    width: 100%;
+    height: 150px;
+    transition-property: background  ; 
+    transition-duration:  3s;
+    filter: opacity(80%);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    box-shadow: 0 5px 50px rgb(228, 141, 36);
+    
+    
+   
+     }
+.box:hover{
+    background: burlywood;
+}
+
+.box2 {
+    background: whitesmoke;
+    width: 600px;
+    height: 500px;
+    margin: 35px;
+    padding: 5px;
+    float: right;
+    box-shadow: 0 5px 50px rgb(228, 141, 36);
+   
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+
+  
+    }
+    .right-menu{
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block
+
+    }
+    .menu-button{
+        background-color: transparent;
+        color:#fff;
+        padding: 16px;
+        font-size: 35px;
+        cursor: pointer;
+        border: 1px solid #fff;
+        margin: 15px;
+        font-family: 'Lobster', cursive;
+        
+    }
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width:160px ;
+        z-index: 1;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+        margin: 10px;
+        padding: 2px;
+        font-family: 'Lobster', cursive;
+
+    }
+    .dropdown-menu a:hover{
+        background-color: #000;
+        color:#fff;
+
+    }
+    .right-menu:hover .dropdown-menu{
+        display: block;
+    }
+    .right-menu:hover .menu-button{
+        background-color: transparent;
+    }
+    .dropdown-menu a {
+        color:black;
+        padding: 12 px 16 px;
+        text-decoration: none;
+        display: block;
+    }
+    h2 {
+        font-family: 'Lobster', cursive;
+        
+    }
+    .trans {
+        width: 100px;
+        height: 100px;
+        background-image: url("bilder/ät2.jpg");
+        -webkit-transition: width 2s, height 2s, -webkit- transform 2s;
+           transition:   width 2s, height 2s, transform 2s;
+    }
+    .trans:hover {
+        width: 400px;
+        height: 400px;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+.fot footer 
+{
+    width: 100%;
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 550px;
+    text-align: center;
+    
+}
+.box10 {
+  width:200px ; 
+  height: 200px ;
+  background-color: aliceblue;
+  margin: 260px;
+  margin-top: 50px;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  box-shadow: 0 5px 50px rgb(228, 141, 36);
+  
+ 
+}
+.box10:hover{
+    background: burlywood;
+    border-radius: 50%;
+}
+
+
+h4 {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+}
+.p {
+    padding: 7px;
+    font-family: 'Lobster', cursive;
+}
+
+    
+
