@@ -1,21 +1,11 @@
-body {
-    padding: 0;
+*{
     margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
     
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
-
-.showcase {
-    display: flex;
-    justify-content: center;
-  background-color: rgb(233, 245, 245);
-}
-.main-text{
-    font-family: 'Lobster', cursive;
-
-}
-
 
 
 
