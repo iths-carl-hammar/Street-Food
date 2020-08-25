@@ -4,18 +4,70 @@
     box-sizing: border-box;
 }
 body {
+    font-family: 'Lobster', cursive;
     
 }
 
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px ,1fr));
+    min-height: 100vh;
+    grid-gap:2rem;
+}
+
+.container  {
+    overflow: hidden;
+
+
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.container img:hover{
+    transform: scale(1.2);
+
+}
+
+.modal-img{
+    position: absolute;
+    height: 70% ;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)  scale(0.5);
+    transition: all 0.25s ease-out ;
+}
+.modal-img.open{
+    transform: translate(-50%, -50%)  scale(0.1);
+
+}
+.modal.open{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal{
+    pointer-events: none;
+    background:rgba(0,0,0,0.8);
+    transition: 0.25s ease-out ;
+
+    position: fixed;
+    top:0 ;
+    left:0;
+    width: 100%;
+    height: 100%;
+   opacity: 0;
+   
 
 
 
-
- 
-
-
-
+}
 
 
 
